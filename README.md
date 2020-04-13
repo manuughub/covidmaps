@@ -4,7 +4,7 @@
 Nombre: Manuela Hernández Ríos
 ID: 000196974
 # Nombre de la aplicación:
-COVIDMAPS
+COVIMAPS
 # Descripción:
 Permite a los usuarios de la red poner información sobre su experiencia con la enfermedad Covid-19 (si la ha tenido o no) junto con su ubicación geográfica, así como visualizar la información de personas contagiadas. De esta manera se podrá documentar si la zona en donde se encuentra el dispositivo puede ser considerada una zona de riesgo y decir qué probabilidad estimada hay de contagio. Además, cuenta con la función de graficar un mapa de la ciudad con número de casos confirmados. 
 # Distribución:
@@ -14,6 +14,6 @@ App móvil con una interfaz gráfica interactiva con el usuario, para recopilar 
 Sitio web: archivos en python u otros, con acceso a base de datos.
 Contenedores. 
 # Árbol de carpetas del sitio
-/send_data: recibe la información ingresada por los usuarios desde la app
-/visor_mapa: grafica y muestra el mapa de la zona
+/send_data: recibe la información ingresada por los usuarios desde la app.
+/visor_mapa: grafica y muestra el mapa de la zona.
 # Conclusiones
