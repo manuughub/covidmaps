@@ -1,0 +1,5 @@
+# Comandos para el uso de contenedores
+sudo apt install docker.io
+sudo docker search "palabra clave"
+sudo docker pull "nombre de la imagen"
+sudo docker run-it "nombre de la maquina"
