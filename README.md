@@ -17,3 +17,4 @@ Contenedores.
 /send_data: recibe la información ingresada por los usuarios desde la app.
 /visor_mapa: grafica y muestra el mapa de la zona.
 # Conclusiones
+Están pendientes de acuerdo con la evolución y la finalización del proyecto.
