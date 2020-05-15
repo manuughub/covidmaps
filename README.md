@@ -20,7 +20,7 @@ Es un servidor de página web basada en contenedores el cual ofrecerá informaci
  Acá se contendrá el cuerpo del proyecto (se utilizará la librería flask de python y dash para la graficación). En este archivo se obtendrán los datos enviados por el index.html mediante el método POST y a partir de estos se buscará en las bases de datos la información de los casos covid-19 de la localidad para realizar el gráfico y el análisis por zonas. Si según los datos ingresados, el usuario tiene covid-19 o sospecha de ello, entonces su información se añadirá a la base de datos. (Se implementaron dos bases de datos: la primera es una base de datos basada en una hoja de cálculo dada por el municipio y la otra es una base de datos en sqlite3 que almacena las localizaciones de las personas con covid-19 que ingresan a la página)
  # BaseDatos2.db
   Esta base de datos tendrá la información de los casos confirmados de covid-19 dadas por los usuarios que ingresen a la página.
- # BaseDeDatosValleDeAburra100%realNoFake.xlss
+ # BaseDeDatosValleDeAburra100%realNoFake.xls
   Esta hoja de cálculo contiene las ubicaciones de los casos confirmados de covid-19 dados por el municipio (un dummy data)
  # Contenedor en docker
   En el contenedor se almacenarán los archivos ya mencionados en el ubuntu que se usará para el servicio (se tendrá ya instalados el flask, dash para graficar el mapa, el pip y la versión python que se necesitan para soportar el servicio). Así al momento de levantar una imagen en memoria lo único que se hará es levantar el servicio (No fue implementado en el proyecto final)
