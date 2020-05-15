@@ -15,7 +15,7 @@ Es un servidor de página web basada en contenedores el cual ofrecerá informaci
  # Dockerfile
  Este archivo directamente relacionado con el contenedor se encargará de ejecutar las instrucciones necesarias al momento de montar al servidor. Levantará los servicios necesarios y ejecutará el .py por debajo de memoria (Este archivo no se implementó en la entrega final)
  # index.html
- Este archivo de hipertexto (estará en un directorio llamada templates)contendrá la interfaz de entrada que verá el usuario. Acá se obtendrán los datos del usuario como el nombre y la edad, incluyendo su localización actual y si ha tenido covid-19; y se redireccionará al archivo bdtesting.py
+ Este archivo de hipertexto (estará en un directorio llamado templates)contendrá la interfaz de entrada que verá el usuario. Acá se obtendrán los datos del usuario como el nombre y la edad, incluyendo su localización actual y si ha tenido covid-19; y se redireccionará al archivo bdtesting.py
  # bdtesting.py
  Acá se contendrá el cuerpo del proyecto (se utilizará la librería flask de python y dash para la graficación). En este archivo se obtendrán los datos enviados por el index.html mediante el método POST y a partir de estos se buscará en las bases de datos la información de los casos covid-19 de la localidad para realizar el gráfico y el análisis por zonas. Si según los datos ingresados, el usuario tiene covid-19 o sospecha de ello, entonces su información se añadirá a la base de datos. (Se implementaron dos bases de datos: la primera es una base de datos basada en una hoja de cálculo dada por el municipio y la otra es una base de datos en sqlite3 que almacena las localizaciones de las personas con covid-19 que ingresan a la página)
  # BaseDatos2.db
